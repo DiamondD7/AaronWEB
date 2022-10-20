@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    line-height: 1.5;
+
+    font-family: 'Open Sans', sans-serif;
+    color:#232527;
+}
+
+/* Custom BOOTSTRAP */
+
+.container--div{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height:800px;
+
+}
+
+.sub-heading{
+    font-size: 24px;
+}
+
+.headers{
+ font-size: 65px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 500vh;
+    background-color: rgba(0,0,0,0.95);
+    z-index: 1;
+}
+
+/* ----------------- */
+
+
+body{
+    background-color:#edebe5;
+}
+
+.introduction--container{
+    display: flex;
+    justify-content: center;
+    
+    position: absolute;
+    top:306px;
+    left: 571px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
+    gap:190px;
+
+    position: absolute;
+    top:20%;
+    left:47%;
+    transform: translate(-50%,-50%);
+
+    z-index: 10;
+}
+
+
+.menu-items li button{
+    font-size: 50px;
+    color: #edebe5;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.closeBtn-Menu{
+    position: absolute;
+        top: 50px;
+        left: 35px;
+        z-index:5;
+        cursor: pointer;
+        width: 45px;
+        border: none;
+        background-color: transparent;
+
+}
+
+.titles{
+    display: inline-block;
+    margin-left: 7px;
+    margin-top:7px;
+}
+
+.logos{
+    display: flex;
+    justify-content: start;
+    
+    position:absolute;
+    top:750px;
+    left:20px;
+
+    /* margin:350px 0 0 20px; */
+    
+}
+
+.btn-menu{
+    background-color: transparent;
+    border:none;
+
+    margin:15px 0 0 20px;
+
+    cursor: pointer;
+}
+
+.menu-icon{
+    stroke:black;
+    width: 35px;
+}
+
+
+.aboutme{
+    top:800px;
+    background-color:#232527;
+}
+
+
+.lr-container{
+    display: flex;
+    justify-content: center;
+}
+
+.lefty{
+
+    width:50%;
+    height: 800px;
+}
+
+/* .lefty:hover{
+    background-color: rgba(224, 224, 224, 0.2);
+} */
+
+.righty{
+    width: 50%;
+    height:800px;
+}
+
+.btn-divider{
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    width:100%;
+    height:800px;
+    cursor: pointer;
+    transition: ease-out 0.8s;
+}
+
+.btn-divider:hover{
+    display: block;
+    background-color: #edebe5;
+    color:#232527;
+    transition:ease-in 0.5s;
+    
+}
+
