@@ -1,14 +1,14 @@
 import React from "react";
 import { GithubLogo, LinkedinLogo } from "phosphor-react";
 const Introduction = () => {
+  const introTwo = "{Self-Taught}";
   return (
     <div>
       <div className="introduction--container">
         <div className="intro-header headers">Aaron Julian Sierra</div>
         <div className="titles">
           <p>Software Developer</p>
-          <p>Photographer</p>
-          <p>Boxer</p>
+          <p>{introTwo}</p>
         </div>
       </div>
       <div className="logos">

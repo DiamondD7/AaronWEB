@@ -8,36 +8,6 @@
     color:#232527;
 }
 
-/* Custom BOOTSTRAP */
-
-.container--div{
-    position: absolute;
-    top:0;
-    width: 100%;
-    height:800px;
-
-}
-
-.sub-heading{
-    font-size: 24px;
-}
-
-.headers{
- font-size: 65px;
-}
-
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 500vh;
-    background-color: rgba(0,0,0,0.95);
-    z-index: 1;
-}
-
-/* ----------------- */
-
 
 body{
     background-color:#edebe5;
@@ -165,3 +135,59 @@ body{
     
 }
 
+.backAbtBtn{
+    position: fixed;
+    top:0;
+}
+
+.about-header{
+    margin:200px 0 0 300px;
+    font-size: 46px;
+
+    font-weight: 550;
+}
+
+.about-subheading{
+    width:750px;
+    margin:20px 0 0 350px;
+
+    font-weight:300;
+}
+
+
+.year-spacing{
+
+    margin:200px 0 0 100px;
+}
+
+.year-spacing-alternative{
+    display: flex;
+    justify-content: end;
+    margin-right:100px;
+}
+
+
+.firstYear-paragraph{
+    font-size: 18px;
+    line-height: 1.8;
+    width: 850px;
+
+
+    margin:30px 0 0 30px;
+}
+
+.firstYear-subHeader{
+    margin:260px 0 0 30px;
+}
+
+.secondYear-subHeader{
+    margin:290px 0 0 30px;
+}
+
+.year-present{
+    margin-left:100px;
+}
+
+.thirdYear-subHeader{
+    margin:370px 0 0 30px;
+}
