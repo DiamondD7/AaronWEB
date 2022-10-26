@@ -64,14 +64,17 @@ const About = () => {
         <div className="divide-divs">
           <div className="dark-div">
             <h2 className="primaryColorText marginT-6 marginL-6">
-              <Code size={24} color={"#edebe5"} /> HTML / CSS / Javascript
+              <Code size={24} color={"#edebe5"} /> HTML / CSS / Javascript /
+              Java & more
             </h2>
             <p className="primaryColorText firstYear-paragraph">
               At this time, I was learning these three main web technologies
               that boosted my passion in web development. Used multiple
               educational tools such as the sources I mentioned above. I
               introduced myself to Algorithm and Data Structures and practice my
-              problem-solving skills in LeetCode
+              problem-solving skills using LeetCode. Moreover, I have been
+              learning more frameworks and libraries throughout the year (see my
+              CV)
             </p>
             <p className="primaryColorText firstYear-paragraph">
               I focused on these topic for 4 months straight with the goal of 5+
