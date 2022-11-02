@@ -74,7 +74,9 @@ const Home = () => {
             </div>
             <div className="righty">
               <button className="btn-divider">
-                <CaretLeft size={39} /> My Projects
+                <a className="anchor-empty" href="/MyProjects">
+                  <CaretLeft size={39} /> My Projects
+                </a>
               </button>
             </div>
           </div>

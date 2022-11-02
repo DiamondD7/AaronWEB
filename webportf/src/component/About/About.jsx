@@ -65,7 +65,7 @@ const About = () => {
           <div className="dark-div">
             <h2 className="primaryColorText marginT-6 marginL-6">
               <Code size={24} color={"#edebe5"} /> HTML / CSS / Javascript /
-              Java & more
+              MERN stack & more
             </h2>
             <p className="primaryColorText firstYear-paragraph">
               At this time, I was learning these three main web technologies
@@ -122,7 +122,8 @@ const About = () => {
             </p>
             <p className="firstYear-paragraph">
               Furthermore, I have learnt various technologies such as
-              semantic-ui, ReactJS, MongoDB, Microsoft SQL, WebAPI and more...
+              semantic-ui, ReactJS, MongoDB, Microsoft SQL, WebAPI, MERN stack
+              and more...
             </p>
           </div>
           <div className="dark-div">
