@@ -222,6 +222,7 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/Capture.PNG);
     background-size: cover;
     background-position: center center; 
+    background-repeat: no-repeat;
 
     width: 480px;
     height: 400px;
@@ -250,6 +251,7 @@ body{
 
 .preview-container > .content{
     opacity: 0;
+    transition: opacity 1.2s ease;
 }
 
 .preview-container:hover > .content{
@@ -261,6 +263,7 @@ body{
     width: 480px;
     height: 400px;
     opacity: 1;
+    transition: opacity 1s ease;
 }
 
 /* NETFLIX */
@@ -275,10 +278,12 @@ body{
 
     box-shadow: 0px 15px 5px  rgba(0,0,0,0.5);
     
+    
 }
 
 .preview-container-nf > .content{
     opacity: 0;
+    transition: opacity 1.2s ease;
 }
 
 .preview-container-nf:hover > .content{
@@ -290,6 +295,7 @@ body{
     width: 480px;
     height: 400px;
     opacity: 1;
+    transition: opacity 1s ease;
 }
 
 .website-anchortags-nf a {
