@@ -9,16 +9,22 @@
 }
 
 
+
 body{
     background-color:#edebe5;
 }
 
+/* .logo{
+    position: absolute;
+    top:0;
+    left:0;
+} */
 .introduction--container{
     display: flex;
     justify-content: center;
     
     position: absolute;
-    top:306px;
+    top:0;
     left: 571px;
 }
 
@@ -31,10 +37,15 @@ body{
 
     position: absolute;
     top:20%;
-    left:47%;
+    left:50%;
     transform: translate(-50%,-50%);
 
     z-index: 10;
+}
+
+.menu-anchor{
+    text-decoration: none;
+    color: #edebe5;
 }
 
 

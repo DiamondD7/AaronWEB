@@ -30,7 +30,11 @@ const Home = () => {
               <nav>
                 <ul className="menu-items">
                   <li>
-                    <button>Contact</button>
+                    <button>
+                      <a className="menu-anchor" href="/contactus">
+                        Contact
+                      </a>
+                    </button>
                   </li>
                   <li>
                     <button>Additional</button>

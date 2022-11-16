@@ -1,13 +1,15 @@
 import React from "react";
 import { GithubLogo, LinkedinLogo } from "phosphor-react";
+import logo from "../images/AJS-logo.png";
 const Introduction = () => {
   return (
     <div>
       <div className="introduction--container">
-        <div className="intro-header headers">Aaron Julian Sierra</div>
+        {/* <div className="intro-header headers">Aaron Julian Sierra</div>
         <div className="titles">
           <p>Software Developer</p>
-        </div>
+        </div> */}
+        <img className="logo" src={logo} />
       </div>
       <div className="logos">
         <a href="https://github.com/DiamondD7" target="_blank">
