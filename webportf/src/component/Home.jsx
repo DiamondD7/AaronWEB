@@ -37,10 +37,11 @@ const Home = () => {
                     </button>
                   </li>
                   <li>
-                    <button>Additional</button>
-                  </li>
-                  <li>
-                    <button>Blog</button>
+                    <button>
+                      <a className="menu-anchor" href="/cvresume">
+                        CV/Resume
+                      </a>
+                    </button>
                   </li>
                 </ul>
               </nav>

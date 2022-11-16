@@ -3,6 +3,7 @@ import Home from './component/Home';
 import About from './component/About/About';
 import MyProjects from './component/Projects/MyProjects';
 import ContactUs from './component/ContactUs';
+import CV from './component/CV';
 
 const App = () => {
     let component;
@@ -18,6 +19,9 @@ const App = () => {
             break;
         case '/contactus':
             component = <ContactUs/>;
+            break;
+        case '/cvresume':
+            component = <CV/>;
             break;
         default:
             console.log("erorr in the switch")

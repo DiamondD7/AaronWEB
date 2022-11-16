@@ -208,7 +208,7 @@ body{
 
 
 .project-header{
-    margin:50px 0 0 300px;
+    margin:50px 0 0 205px;
     font-size: 46px;
 
     font-weight: 550;
@@ -223,7 +223,8 @@ body{
     width:1500px;
     height: 855px;
 
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
     gap:30px;
 
 
@@ -260,12 +261,24 @@ body{
     margin-right: 50px;
 }
 
-.preview-container > .content{
+.preview-container-weather{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/Capture.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 480px;
+    height: 400px;
+
+    box-shadow: 0px 15px 5px  rgba(0,0,0,0.5);
+}
+
+.preview-container-weather > .content{
     opacity: 0;
     transition: opacity 1.2s ease;
 }
 
-.preview-container:hover > .content{
+.preview-container-weather:hover > .content{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/Capture.PNG);
     background-size: cover;
     background-position: center center; 
@@ -277,11 +290,104 @@ body{
     transition: opacity 1s ease;
 }
 
+
+.preview-container-shopclient{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/shopNZ.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 480px;
+    height: 400px;
+
+    box-shadow: 0px 15px 5px  rgba(0,0,0,0.5);
+}
+
+.preview-container-shopclient > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-shopclient:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/shopNZ.PNG);
+    background-size: cover;
+    background-position: center center; 
+
+    color:rgba(200,200,200,0.7);
+    width: 480px;
+    height: 400px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.preview-container-shopadmin{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/shopAdmin.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+    width: 480px;
+    height: 400px;
+
+    box-shadow: 0px 15px 5px  rgba(0,0,0,0.5);
+}
+
+.preview-container-shopadmin > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-shopadmin:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/shopAdmin.PNG);
+    background-size: cover;
+    background-position: left; 
+
+    color:rgba(200,200,200,0.7);
+    width: 480px;
+    height: 400px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+
+.preview-container-kali{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/kaliphotography.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+    width: 480px;
+    height: 400px;
+
+    box-shadow: 0px 15px 5px  rgba(0,0,0,0.5);
+    
+}
+
+.preview-container-kali > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+    
+}
+
+.preview-container-kali:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/kaliphotography.PNG);
+    background-size: cover;
+    background-position: center center; 
+
+    color:rgba(200,200,200,0.7);
+    width: 480px;
+    height: 400px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+
 /* NETFLIX */
 
 .preview-container-nf{
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/nf.PNG);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center center; 
 
     width: 480px;
@@ -310,6 +416,30 @@ body{
 }
 
 .website-anchortags-nf a {
+    position: relative;
+    top:230px;
+    left: 0;
+
+    margin-right: 50px;
+}
+
+.website-anchortags-shopclient a {
+    position: relative;
+    top:130px;
+    left: 0;
+
+    margin-right: 50px;
+}
+
+.website-anchortags-shopadmin a {
+    position: relative;
+    top:226px;
+    left: 0;
+
+    margin-right: 50px;
+}
+
+.website-anchortags-kali a {
     position: relative;
     top:230px;
     left: 0;

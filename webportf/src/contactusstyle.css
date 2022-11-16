@@ -19,16 +19,17 @@
 
 .form{
     display: inline-block;
-    background-color: #e2e2e2;
-
-    width: 1500px;
-    height: 550px;
+    background-color: transparent;
     padding:20px;
     position: absolute;
     top:200px;
     left:10%;
 
     border-radius: 5px;
+}
+
+.form-body{
+    display: flex;
 }
 
 .form-label{
@@ -74,4 +75,11 @@
     border:none;
     color:#202020;
     transition: background 0.5s ease-in-out;
+}
+
+
+.contact-description{
+    font-size: 18px;
+    width: 700px;
+    margin-left: 100px;
 }

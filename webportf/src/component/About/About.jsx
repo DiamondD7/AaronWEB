@@ -78,9 +78,8 @@ const About = () => {
             </p>
             <p className="primaryColorText firstYear-paragraph">
               I focused on these topic for 4 months straight with the goal of 5+
-              hours coding a day. I learnt so much from skills after the 4
-              months of dedicated studies which helped me mentor some of my
-              friends
+              hours coding a day. I learnt so much after the 4 months of
+              dedicated studies which helped me mentor some of my friends
             </p>
           </div>
           <div className="white-div">
@@ -122,8 +121,12 @@ const About = () => {
             </p>
             <p className="firstYear-paragraph">
               Furthermore, I have learnt various technologies such as
-              semantic-ui, ReactJS, MongoDB, Microsoft SQL, WebAPI, MERN stack
-              and more...
+              semantic-ui, <strong>ReactJS</strong>, <strong>MongoDB</strong>,
+              <strong>Microsoft SQL</strong>, <strong>WebAPI</strong>,{" "}
+              <strong>MERN stack</strong> , <strong>Azure</strong> and more. The
+              internship introduced me to the AGILE work environment and the
+              daily standups once a week; where we discussed blockers and
+              provide an update on our tasks
             </p>
           </div>
           <div className="dark-div">
@@ -133,7 +136,7 @@ const About = () => {
             </h2>
             <p className="primaryColorText firstYear-paragraph">
               I am very passionate about software development, that I do not
-              mind to study after work hours. I am currently working on multiple
+              mind studying after work hours. I am currently working on multiple
               self projects that I will be deploying in Azure and showcasing it
               through this portfolio. I will be expecting 3 or 4 projects to be
               done and deployed at the end of this year.

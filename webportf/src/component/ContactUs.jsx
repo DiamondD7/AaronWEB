@@ -1,48 +1,92 @@
-import React from "react";
+import React, { useRef } from "react";
 import logo from "../images/AJS-logo.png";
-
+import desc from "../images/desc.png";
+import emailjs from "@emailjs/browser";
 import "../contactusstyle.css";
 const ContactUs = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_rqtts2v",
+        "template_xqm29rw",
+        form.current,
+        "DwJN5taYq7_gUFIXk"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+  };
   return (
     <div className="contact-global">
       <a href="/">
         <img className="contact-logo" src={logo} />
       </a>
       <h1 className="contactme-header">Contact me</h1>
-      <form className="form">
-        <label className="form-label req" htmlFor="name">
-          Name
-        </label>
-        <br />
-        <input className="input-form" id="name" type="text" />
-        <br />
-        <label className="form-label req" htmlFor="email">
-          Email
-        </label>
-        <br />
-        <input className="input-form" id="email" type="text" />
-        <br />
-        <label className="form-label" htmlFor="phone">
-          Phone
-        </label>
-        <br />
-        <input className="input-form" id="phone" type="text" />
-        <br />
-        <label className="form-label req" htmlFor="msg">
-          Message
-        </label>
-        <br />
-        <textarea className="textarea-form req" id="msg"></textarea>
-        <br />
+      <form ref={form} onSubmit={sendEmail} className="form">
+        <div className="form-body">
+          <div>
+            <label className="form-label req" htmlFor="name">
+              Name
+            </label>
+            <br />
+            <input
+              className="input-form"
+              id="name"
+              type="text"
+              name="from_name"
+            />
+            <br />
+            <label className="form-label req" htmlFor="email">
+              Email
+            </label>
+            <br />
+            <input
+              className="input-form"
+              id="email"
+              type="text"
+              name="user_email"
+            />
+            <br />
+            <label className="form-label" htmlFor="subject">
+              Subject
+            </label>
+            <br />
+            <input
+              className="input-form"
+              id="subject"
+              type="text"
+              name="subject"
+            />
+            <br />
+            <label className="form-label req" htmlFor="msg">
+              Message
+            </label>
+            <br />
+            <textarea
+              className="textarea-form req"
+              id="msg"
+              name="message"
+            ></textarea>
+            <br />
 
-        <button className="btn-send">Send</button>
-
-        <p className="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt delectus
-          omnis repellat in placeat, saepe magnam soluta aliquid illum nam
-          architecto ipsa nihil animi impedit, nisi voluptatem quas mollitia
-          quos.
-        </p>
+            <button type="submit" className="btn-send">
+              Send
+            </button>
+          </div>
+          <div className="contact-description">
+            <img src={desc} />
+          </div>
+        </div>
       </form>
     </div>
   );

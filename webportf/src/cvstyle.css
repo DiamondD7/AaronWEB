@@ -1,0 +1,26 @@
+.cv-header{
+    font-size: 58px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.cv-paragraph{
+    font-size:24px;
+    text-align: center;
+}
+
+.download-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-div{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.close-page{
+    margin:20px 0 0 20px;
+}
