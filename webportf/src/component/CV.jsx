@@ -1,6 +1,6 @@
 import React from "react";
 import { DownloadSimple, ArrowLeft } from "phosphor-react";
-
+import AaronCV from "../assets/files/Aaron Sierra CV 2022.pdf";
 import "../cvstyle.css";
 
 const CV = () => {
@@ -13,7 +13,9 @@ const CV = () => {
       <p className="cv-paragraph">Click the download icon below</p>
       <div className="btn-div">
         <button className="download-btn">
-          <DownloadSimple size={35} />
+          <a href={AaronCV} download="Aaron Sierra CV 2022" target="_blank">
+            <DownloadSimple size={35} />
+          </a>
         </button>
       </div>
     </div>

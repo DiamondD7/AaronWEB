@@ -120,13 +120,14 @@ const About = () => {
               technical skills.
             </p>
             <p className="firstYear-paragraph">
-              Furthermore, I have learnt various technologies such as
-              semantic-ui, <strong>ReactJS</strong>, <strong>MongoDB</strong>,
-              <strong>Microsoft SQL</strong>, <strong>WebAPI</strong>,{" "}
-              <strong>MERN stack</strong> , <strong>Azure</strong> and more. The
-              internship introduced me to the AGILE work environment and the
-              daily standups once a week; where we discussed blockers and
-              provide an update on our tasks
+              Furthermore, I have learnt various technologies such as{" "}
+              <strong>C# with React templates and ASP.NET</strong>,
+              <strong> Semantic-ui</strong>, <strong>ReactJS</strong>,{" "}
+              <strong>MongoDB</strong>,<strong>Microsoft SQL</strong>,{" "}
+              <strong>WebAPI</strong>, <strong>MERN stack</strong> ,{" "}
+              <strong>Azure</strong> and more. The internship introduced me to
+              the AGILE work environment and the daily standups once a week;
+              where we discussed blockers and provide an update on our tasks
             </p>
           </div>
           <div className="dark-div">
