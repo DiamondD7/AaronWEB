@@ -17,10 +17,10 @@ const About = () => {
         </a>
       </button>
       <div>
-        <h1 className="about-header">Hi. Thank you for stopping by</h1>
+        <h1 className="about-header">Hi. Thank you for stopping by.</h1>
         <h2 className="about-subheading">
-          I have displayed my life story and my achievements from the year 2020
-          to the present year. I hope I wont bore you and I hope you will enjoy!
+          Displayed here, is my life story and my achievements from the year
+          2020 to the present year. I hope you enjoy!
         </h2>
       </div>
       <div>
@@ -31,13 +31,13 @@ const About = () => {
               <GraduationCap size={24} /> Graduated Business Diploma
             </h2>
             <p className="firstYear-paragraph">
-              I studied Business for a year in New Zealand Skills and
-              Education(NZSE). I learnt a lot about business stategies,
-              Accounting, Human Resource Management and Operations. I was a keen
-              busines student and a keen programmer on the side while away from
-              school. At this time, I was also a self-taught programmer. Used
-              Udemy, Stackoverflow, LinkedIn Learning and Codeacademy. Learning
-              mostly C# and ASP.NET
+              I studied Business for a year at New Zealand Skills and Education
+              (NZSE). I learnt a lot about business strategies, Accounting,
+              Human Resource Management and Operations. I was a keen business
+              student and a keen programmer on the side, while away from school.
+              At this time, I was also a self-taught programmer. I utilised the
+              following resources: Udemy, Stackoverflow, LinkedIn Learning and
+              Codeacademy, learning mostly C# and ASP.NET
             </p>
           </div>
           <div className="dark-div">
@@ -46,14 +46,14 @@ const About = () => {
               Android Development
             </h2>
             <p className="primaryColorText firstYear-paragraph">
-              Before learning other .Net frameworks, I fell inlove with Xamarin
+              Before learning other .Net frameworks, I fell in love with Xamarin
               Forms. Even though the framework was considered to be deprecated;
               I was still keen to learn the whole structure of making
-              applications on Andriod.
+              applications on Android.
             </p>
             <p className="primaryColorText firstYear-paragraph">
-              It was a successful learning, as I gained important experiences
-              and understanding that helped me with my learning journey.
+              It was a successful learning experience, as I gained significant
+              understanding that helped me with my learning journey.
             </p>
           </div>
         </div>
@@ -71,15 +71,15 @@ const About = () => {
               At this time, I was learning these three main web technologies
               that boosted my passion in web development. Used multiple
               educational tools such as the sources I mentioned above. I
-              introduced myself to Algorithm and Data Structures and practice my
-              problem-solving skills using LeetCode. Moreover, I have been
+              introduced myself to Algorithm and Data Structures and practiced
+              my problem-solving skills using LeetCode. Moreover, I have been
               learning more frameworks and libraries throughout the year (see my
-              CV)
+              CV).
             </p>
             <p className="primaryColorText firstYear-paragraph">
-              I focused on these topic for 4 months straight with the goal of 5+
-              hours coding a day. I learnt so much after the 4 months of
-              dedicated studies which helped me mentor some of my friends
+              I focused on these topics for 4 months straight with the goal of
+              5+ hours of coding a day. I learnt so much after the 4 months of
+              dedicated studies which helped me mentor some of my peers.
             </p>
           </div>
           <div className="white-div">
@@ -88,13 +88,13 @@ const About = () => {
             </h2>
             <p className="firstYear-paragraph">
               I am very glad that I had the chance to take this course, because
-              I made a huge progress in my academic situation. Averaging an 'A'
-              throughout that academic year and I was able to learn more about
-              networking, hardware and troubleshooting.
+              I made huge progress in my academic situation. Throughout that
+              academic year I was averaging 'A' grades and I was able to learn
+              more about networking, hardware and troubleshooting.
             </p>
             <p className="firstYear-paragraph">
-              Additionally, I made so much friends and connections with other
-              people that helped me coped stress and motivation.
+              Additionally, I made so many friends and connections with other
+              people which helped me cope with stress and stay motivated.
             </p>
           </div>
         </div>
@@ -105,29 +105,30 @@ const About = () => {
         <div className="divide-divs">
           <div className="white-div">
             <h2 className="marginT-6 marginL-6">
-              <Star size={22} color={"#232527"} /> Internship in Mvp Studio
+              <Star size={22} color={"#232527"} />
+              Mvp Studio Internship
             </h2>
             <p className="firstYear-paragraph">
               I was granted an internship for 5+ months at Mvp Studio through
               the help of Industry Connect which helped me improve drastically
-              and learnt all demanded skills in the industry to be employable.
+              and learn all demanded skills in the industry to be employable.
             </p>
             <p className="firstYear-paragraph">
-              During my time, I was given tasks by my mentors which I have
-              finished with confidence that I maximised the opportunity I was
-              given to me. Additionally, there are a lot of workshops for
-              interns like me to join to improve both our soft skills and our
-              technical skills.
+              During that time, I was given tasks by my mentors which I
+              completed, with the confidence that I maximised the opportunity I
+              was given. Additionally, there are a lot of workshops for interns
+              like me who wish to improve both their soft skills and technical
+              skills.
             </p>
             <p className="firstYear-paragraph">
               Furthermore, I have learnt various technologies such as{" "}
               <strong>C# with React templates and ASP.NET</strong>,
               <strong> Semantic-ui</strong>, <strong>ReactJS</strong>,{" "}
               <strong>MongoDB</strong>,<strong>Microsoft SQL</strong>,{" "}
-              <strong>WebAPI</strong>, <strong>MERN stack</strong> ,{" "}
+              <strong>WebAPI</strong>, <strong>MERN stack</strong>,{" "}
               <strong>Azure</strong> and more. The internship introduced me to
-              the AGILE work environment and the daily standups once a week;
-              where we discussed blockers and provide an update on our tasks
+              the AGILE work environment and the daily standups; where we
+              discussed blockers and provided updates on our tasks.
             </p>
           </div>
           <div className="dark-div">
@@ -138,9 +139,9 @@ const About = () => {
             <p className="primaryColorText firstYear-paragraph">
               I am very passionate about software development, that I do not
               mind studying after work hours. I am currently working on multiple
-              self projects that I will be deploying in Azure and showcasing it
+              self projects that I will be deploying via Azure and showcasing it
               through this portfolio. I will be expecting 3 or 4 projects to be
-              done and deployed at the end of this year.
+              done and deployed by the end of 2022.
             </p>
           </div>
         </div>

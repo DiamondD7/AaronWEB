@@ -19,7 +19,7 @@ const MyProjects = () => {
             <p>
               I have cloned the Netflix application that has the ability to play
               videos with dynamic hero that always change when the page is
-              refreshed and get data from the api provided by TMBD. This
+              refreshed and recieves data from the api provided by TMBD. This
               application is built using ReactJS.
             </p>
             <div className="website-anchortags-nf">
@@ -45,10 +45,10 @@ const MyProjects = () => {
               node.js API. This is the client side of the website and there is
               another admin side of the website where admins can perform CRUD
               operations and control the data of the website. This was made
-              using the M-E-R-N Stack Additionally, this project is only made
-              just for my self and my learning, that is why it is only partial
-              complete. Men and Women section are the only ones working and
-              populated by the API
+              using the M-E-R-N Stack. Additionally, this project is made just
+              for myself and my learning, that is why it is only partially
+              completed. The 'Men' and 'Women' sections are the only ones
+              working and populated by the API.
             </p>
             <div className="website-anchortags-shopclient">
               <a
@@ -75,8 +75,8 @@ const MyProjects = () => {
         <div className="preview-container-shopadmin">
           <div className="content">
             <p>
-              This project is the admin part of the e-commerce website where the
-              authorized personel can only access and have the power to perform
+              This project is the admin part of the e-commerce website where
+              only authorised personel have access, have the power to perform
               CRUD operations and have full control of the data
             </p>
             <div className="website-anchortags-shopadmin">
@@ -103,8 +103,8 @@ const MyProjects = () => {
           <div className="content">
             <p>
               I have made this "weather project" powered by ReactJs and
-              weatherstack API. It provides real-time weather data any city in
-              the world.
+              weatherstack API. It provides real-time weather data of any city
+              in the world.
             </p>
             <div className="website-anchortags">
               <a
@@ -126,10 +126,9 @@ const MyProjects = () => {
         <div className="preview-container-kali">
           <div className="content">
             <p>
-              I am making this photography website portfolio for a client. As of
+              I am making this photography portfolio website for a client. As of
               right now, I am still working on this project; working closely
-              with the client and putting my client's needs and wants for the
-              design of the website
+              with the client and fulfilling my client's needs and wants.
             </p>
             <div className="website-anchortags-kali">
               <a style={{ color: "limegreen" }}>
