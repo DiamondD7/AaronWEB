@@ -425,7 +425,7 @@ body{
 
 .website-anchortags-shopclient a {
     position: relative;
-    top:130px;
+    top:85px;
     left: 0;
 
     margin-right: 50px;
@@ -433,7 +433,7 @@ body{
 
 .website-anchortags-shopadmin a {
     position: relative;
-    top:226px;
+    top:180px;
     left: 0;
 
     margin-right: 50px;
@@ -441,7 +441,7 @@ body{
 
 .website-anchortags-kali a {
     position: relative;
-    top:230px;
+    top:248px;
     left: 0;
 
     margin-right: 50px;

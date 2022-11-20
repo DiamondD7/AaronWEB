@@ -50,6 +50,9 @@ const MyProjects = () => {
               completed. The 'Men' and 'Women' sections are the only ones
               working and populated by the API.
             </p>
+
+            <br />
+            <p>FYI: Wait for the data to load around 2 mins.</p>
             <div className="website-anchortags-shopclient">
               <a
                 href="https://shopliftnzclient.azurewebsites.net/"
@@ -77,8 +80,11 @@ const MyProjects = () => {
             <p>
               This project is the admin part of the e-commerce website where
               only authorised personel have access, have the power to perform
-              CRUD operations and have full control of the data
+              CRUD operations and have full control of the data FYI: Wait for
+              the data to load around 2 mins.
             </p>
+            <br />
+            <p>FYI: Wait for the data to load around 2 mins.</p>
             <div className="website-anchortags-shopadmin">
               <a
                 href="https://shopliftnzadmin.azurewebsites.net/"
