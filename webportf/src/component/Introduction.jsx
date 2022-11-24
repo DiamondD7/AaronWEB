@@ -1,5 +1,5 @@
 import React from "react";
-import { GithubLogo, LinkedinLogo } from "phosphor-react";
+import { GithubLogo, LinkedinLogo, InstagramLogo } from "phosphor-react";
 import logo from "../images/AJS-logo.png";
 const Introduction = () => {
   return (
@@ -21,6 +21,10 @@ const Introduction = () => {
           target="_blank"
         >
           <LinkedinLogo size={35} color={"#232527"} />
+        </a>
+
+        <a href="https://www.instagram.com/diamondcde/" target="_blank">
+          <InstagramLogo size={35} color={"#232527"} />
         </a>
       </div>
     </div>

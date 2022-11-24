@@ -80,7 +80,7 @@ body{
     justify-content: start;
     
     position:absolute;
-    top:750px;
+    top:830px;
     left:20px;
 
     /* margin:350px 0 0 20px; */
@@ -445,4 +445,17 @@ body{
     left: 0;
 
     margin-right: 50px;
+}
+
+.double-down-icon{
+    position: absolute;
+    top:800px;
+    left:50%;
+    transform: translate(-50%, 0);
+}
+
+.hover-text{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #232527;
 }

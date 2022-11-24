@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Introduction from "./Introduction";
 import { X } from "phosphor-react";
-import { CaretRight, CaretLeft } from "phosphor-react";
+import { CaretRight, CaretLeft, CaretDoubleDown } from "phosphor-react";
 
 const Home = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -67,19 +67,23 @@ const Home = () => {
           <Introduction />
         </div>
       </div>
+      <div className="double-down-icon">
+        <p className="hover-text">Hover</p>
+        <CaretDoubleDown size={48} color={"#232527"} />
+      </div>
       <div>
         <div className="aboutme container--divs">
           <div className="lr-container">
             <div className="lefty">
               <button className="btn-divider">
-                <a className="anchor-empty" href="/About">
+                <a className="anchor-empty about" href="/About">
                   About me <CaretRight size={39} />
                 </a>
               </button>
             </div>
             <div className="righty">
               <button className="btn-divider">
-                <a className="anchor-empty" href="/MyProjects">
+                <a className="anchor-empty projects" href="/MyProjects">
                   <CaretLeft size={39} /> My Projects
                 </a>
               </button>
