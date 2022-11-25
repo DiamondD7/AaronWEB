@@ -8,8 +8,6 @@
     color:#232527;
 }
 
-
-
 body{
     background-color:#edebe5;
 }
@@ -215,14 +213,15 @@ body{
 }
 
 .project-container{
-    position:absolute;
+    /* position:absolute;
     top:55%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
 
-    width:1500px;
-    height: 855px;
+    /* width:1500px;
+    height: 855px; */
 
+    margin-left: 150px;
     display: grid;
     grid-template-columns: repeat(3, 500px);
     gap:30px;
@@ -382,8 +381,6 @@ body{
 }
 
 
-/* NETFLIX */
-
 .preview-container-nf{
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/nf.PNG);
     background-size: contain;
@@ -455,7 +452,339 @@ body{
 }
 
 .hover-text{
-    font-size: 15px;
+    font-size: 10px;
     text-transform: uppercase;
     color: #232527;
+}
+
+.caretLeft{
+    height: 39px;
+    width:39px;
+}
+
+.caretRight{
+    height: 39px;
+    width:39px;
+}
+
+.x-btn{
+    width: 29px;
+}
+
+.presentYear{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+    height:800px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .aboutme{
+        top:800px;
+        background-color: #232527;
+    }
+
+    .logo{
+        width: 390px;
+    }
+
+    .introduction--container{
+        display: flex;
+        justify-content: center;
+        
+        position: absolute;
+        top:0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .double-down-icon{
+        position: absolute;
+        top:480px;
+        left:50%;
+        transform: translate(-50%, 0);
+    }
+
+    .hover-text{
+        font-size: 9px;
+        text-transform: uppercase;
+        color: #232527;
+    }
+
+    .logos{
+        top:490px;
+        left:20px;
+    }
+
+    .btn-divider{
+        font-size: 30px;
+        background-color: transparent;
+        border: none;
+        width:100%;
+        height:800px;
+        cursor: pointer;
+        transition: ease-out 0.8s;
+    }
+    
+    .btn-divider:hover{
+        display: block;
+        background-color: #edebe5;
+        color:#232527;
+        transition:ease-in 0.5s;
+        
+    }
+
+    .caretLeft{
+        height: 25px;
+        width:25px;
+    }
+    
+    .caretRight{
+        height: 25px;
+        width:25px;
+    }
+
+    .menu-icon{
+        stroke:#232527;
+        width: 25px;
+    }
+
+    .btn-menu{
+        background-color: transparent;
+        border:none;
+    
+        margin:15px 0 0 20px;
+    
+        cursor: pointer;
+    }
+
+    .menu-items{
+        list-style: none;
+        gap:100px;
+    }
+    .menu-items li button{
+        font-size: 25px;
+        color: #edebe5;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* ------------ABOUT SECTION---------- */
+
+    .about-header{
+        margin:200px 0 0 20px;
+        font-size: 24px;
+    
+        font-weight: 550;
+    }
+
+    .about-subheading{
+        width:500px;
+        margin:20px 0 0 50px;
+    
+        font-weight:300;
+    }
+
+    .year-spacing{
+        margin:200px 0 0 50px;
+    }
+
+    .firstYear-paragraph{
+        font-size: 13px;
+        width: 200px;
+    
+    
+        margin:0 0 0 30px;
+    }
+
+    .firstYear-subHeader{
+        margin:30px 0 0 30px;
+    }
+
+    .secondYear-subHeader{
+        margin:30px 0 0 30px;
+    }
+    
+    .thirdYear-subHeader{
+        margin:30px 0 0 30px;
+    }
+
+    .presentYear{
+        height:800px;
+    }
+
+    /* ----------------------------- */
+
+    /* ---------PROJECT SECTION------------ */
+
+    .project-container{
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(1fr 500px);
+    }
+
+    .project-header{
+        margin:50px 0 0 105px;
+        font-size: 36px;
+    
+        font-weight: 550;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .aboutme{
+        top:800px;
+        background-color: #232527;
+    }
+
+    .logo{
+        width: 390px;
+    }
+
+    .introduction--container{
+        display: flex;
+        justify-content: center;
+        
+        position: absolute;
+        top:0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .double-down-icon{
+        position: absolute;
+        top:480px;
+        left:50%;
+        transform: translate(-50%, 0);
+    }
+
+    .hover-text{
+        font-size: 9px;
+        text-transform: uppercase;
+        color: #232527;
+    }
+
+    .logos{
+        top:490px;
+        left:20px;
+    }
+
+    .btn-divider{
+        font-size: 30px;
+        background-color: transparent;
+        border: none;
+        width:100%;
+        height:800px;
+        cursor: pointer;
+        transition: ease-out 0.8s;
+    }
+    
+    .btn-divider:hover{
+        display: block;
+        background-color: #edebe5;
+        color:#232527;
+        transition: ease-in 0.5s;
+        
+    }
+
+    .caretLeft{
+        height: 25px;
+        width:25px;
+    }
+    
+    .caretRight{
+        height: 25px;
+        width:25px;
+    }
+
+    .menu-icon{
+        stroke:#232527;
+        width: 25px;
+    }
+
+    .btn-menu{
+        background-color: transparent;
+        border:none;
+    
+        margin:15px 0 0 20px;
+    
+        cursor: pointer;
+    }
+
+    .menu-items{
+        list-style: none;
+        gap:100px;
+    }
+    .menu-items li button{
+        font-size: 25px;
+        color: #edebe5;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* ------------ABOUT SECTION---------- */
+
+    .about-header{
+        margin:200px 0 0 20px;
+        font-size: 24px;
+    
+        font-weight: 550;
+    }
+
+    .about-subheading{
+        width:500px;
+        margin:20px 0 0 50px;
+    
+        font-weight:300;
+    }
+
+    .year-spacing{
+        margin:200px 0 0 50px;
+    }
+
+    .firstYear-paragraph{
+        font-size: 13px;
+        width: 200px;
+    
+    
+        margin:0 0 0 30px;
+    }
+
+    .firstYear-subHeader{
+        margin:30px 0 0 30px;
+    }
+
+    .secondYear-subHeader{
+        margin:30px 0 0 30px;
+    }
+    
+    .thirdYear-subHeader{
+        margin:30px 0 0 30px;
+    }
+
+    .presentYear{
+        height:800px;
+    }
+
+    /* ----------------------------- */
+
+    /* ---------PROJECT SECTION------------ */
+
+    .project-container{
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(1fr 500px);
+    }
+
+    .project-header{
+        margin:50px 0 0 180px;
+        font-size: 36px;
+    
+        font-weight: 550;
+    }
 }

@@ -102,7 +102,7 @@ const About = () => {
 
       <div>
         <h2 className="years year-present">Year 2022</h2>
-        <div className="divide-divs">
+        <div className="presentYear">
           <div className="white-div">
             <h2 className="marginT-6 marginL-6">
               <Star size={22} color={"#232527"} />

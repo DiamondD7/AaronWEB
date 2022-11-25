@@ -13,18 +13,18 @@ const Introduction = () => {
       </div>
       <div className="logos">
         <a href="https://github.com/DiamondD7" target="_blank">
-          <GithubLogo size={35} color={"#232527"} />
+          <GithubLogo size={28} color={"#232527"} />
         </a>
 
         <a
           href="https://www.linkedin.com/in/aaron-sierra-0b2106224/"
           target="_blank"
         >
-          <LinkedinLogo size={35} color={"#232527"} />
+          <LinkedinLogo size={28} color={"#232527"} />
         </a>
 
         <a href="https://www.instagram.com/diamondcde/" target="_blank">
-          <InstagramLogo size={35} color={"#232527"} />
+          <InstagramLogo size={28} color={"#232527"} />
         </a>
       </div>
     </div>

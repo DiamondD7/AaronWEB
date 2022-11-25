@@ -84,7 +84,7 @@ const ContactUs = () => {
             </button>
           </div>
           <div className="contact-description">
-            <img src={desc} />
+            <img className="desc" src={desc} />
           </div>
         </div>
       </form>

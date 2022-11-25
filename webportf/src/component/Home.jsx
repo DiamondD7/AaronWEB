@@ -25,7 +25,34 @@ const Home = () => {
                 className="closeBtn-Menu"
                 onClick={() => setOpenMenu(!openMenu)}
               >
-                <X size={40} color={"#edebe5"} />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="x-btn"
+                  fill="#000000"
+                  viewBox="0 0 256 256"
+                >
+                  <rect width="256" height="256" fill="none"></rect>
+                  <line
+                    x1="200"
+                    y1="56"
+                    x2="56"
+                    y2="200"
+                    stroke="#edebe5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="16"
+                  ></line>
+                  <line
+                    x1="200"
+                    y1="200"
+                    x2="56"
+                    y2="56"
+                    stroke="#edebe5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="16"
+                  ></line>
+                </svg>
               </button>
               <nav>
                 <ul className="menu-items">
@@ -69,7 +96,7 @@ const Home = () => {
       </div>
       <div className="double-down-icon">
         <p className="hover-text">Hover</p>
-        <CaretDoubleDown size={48} color={"#232527"} />
+        <CaretDoubleDown className="caret-down" size={30} color={"#232527"} />
       </div>
       <div>
         <div className="aboutme container--divs">
@@ -77,14 +104,50 @@ const Home = () => {
             <div className="lefty">
               <button className="btn-divider">
                 <a className="anchor-empty about" href="/About">
-                  About me <CaretRight size={39} />
+                  About me{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="192"
+                    height="192"
+                    className="caretRight"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <rect width="256" height="256" fill="none"></rect>
+                    <polyline
+                      points="96 48 176 128 96 208"
+                      fill="none"
+                      stroke="#232527"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></polyline>
+                  </svg>
                 </a>
               </button>
             </div>
             <div className="righty">
               <button className="btn-divider">
                 <a className="anchor-empty projects" href="/MyProjects">
-                  <CaretLeft size={39} /> My Projects
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="192"
+                    height="192"
+                    className="caretLeft"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <rect width="256" height="256" fill="none"></rect>
+                    <polyline
+                      points="160 208 80 128 160 48"
+                      fill="none"
+                      stroke="#232527"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></polyline>
+                  </svg>{" "}
+                  My Projects
                 </a>
               </button>
             </div>

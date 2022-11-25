@@ -83,3 +83,76 @@
     width: 700px;
     margin-left: 100px;
 }
+
+@media screen and (max-width: 600px){
+    .textarea-form{
+        min-width: 350px;
+        max-width: 350px;
+    
+        min-height: 400px;
+        max-height: 400px;
+    }
+
+    .form-body{
+        display: block;
+    }
+
+    .desc{
+        width: 400px;
+    }
+
+    .contact-description{
+        font-size: 18px;
+        width: 100px;
+        margin-left: 0;
+    }
+
+    .contactme-header{
+    position: absolute;
+    top:130px;
+    left:50%;
+    transform: translate(-50%, 0);
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    .textarea-form{
+        min-width: 350px;
+        max-width: 350px;
+    
+        min-height: 400px;
+        max-height: 400px;
+    }
+
+    .form{
+        display: inline-block;
+        background-color: transparent;
+        padding:20px;
+        position: absolute;
+        top:200px;
+        left:15%;
+        border-radius: 5px;
+    }
+
+    .form-body{
+        display: block;
+    }
+
+    .desc{
+        width: 400px;
+    }
+
+    .contact-description{
+        width: 100px;
+        margin-left: -10px;
+    }
+
+    .contactme-header{
+    position: absolute;
+    top:130px;
+    left:50%;
+    transform: translate(-50%, 0);
+    }
+
+}

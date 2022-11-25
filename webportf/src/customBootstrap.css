@@ -1,5 +1,7 @@
 /* Custom BOOTSTRAP */
 
+
+
 .primaryColorText{
     color:#edebe5;
 }
@@ -162,3 +164,27 @@
 
 
 /* ----------------- */
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .container--divs{
+        position: absolute;
+        top:550px;
+        width: 100%;
+        height:800px;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .container--divs{
+        position: absolute;
+        top:550px;
+        width: 100%;
+        height:800px;
+    }
+}
