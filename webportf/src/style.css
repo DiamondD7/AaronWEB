@@ -85,6 +85,12 @@ body{
     
 }
 
+.skills-logos{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
 .btn-menu{
     background-color: transparent;
     border:none;
@@ -391,8 +397,10 @@ body{
     height: 400px;
 
     box-shadow: 0px 15px 5px  rgba(0,0,0,0.5);
-    
-    
+}
+
+.icons{
+    width: 30px;
 }
 
 .preview-container-nf > .content{
@@ -412,9 +420,46 @@ body{
     transition: opacity 1s ease;
 }
 
+.preview-container-todo{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./images/todoscreenshot.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    width: 480px;
+    height: 400px;
+
+    box-shadow: 0px 15px 5px  rgba(0,0,0,0.5);
+}
+
+.preview-container-todo > .content{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+.preview-container-todo:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/todoscreenshot.PNG);
+    background-size: cover;
+    background-position: center center; 
+
+    color:rgba(200,200,200,0.7);
+    width: 480px;
+    height: 400px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.website-anchortags-todo a {
+    position: relative;
+    top:212px;
+    left: 0;
+
+    margin-right: 50px;
+}
+
 .website-anchortags-nf a {
     position: relative;
-    top:230px;
+    top:195px;
     left: 0;
 
     margin-right: 50px;
@@ -422,7 +467,7 @@ body{
 
 .website-anchortags-shopclient a {
     position: relative;
-    top:85px;
+    top:46px;
     left: 0;
 
     margin-right: 50px;
@@ -430,7 +475,7 @@ body{
 
 .website-anchortags-shopadmin a {
     position: relative;
-    top:180px;
+    top:140px;
     left: 0;
 
     margin-right: 50px;
@@ -439,6 +484,14 @@ body{
 .website-anchortags-kali a {
     position: relative;
     top:248px;
+    left: 0;
+
+    margin-right: 50px;
+}
+
+.website-anchortags-weather a {
+    position: relative;
+    top:212px;
     left: 0;
 
     margin-right: 50px;
@@ -480,6 +533,9 @@ body{
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px){
+    .icons{
+        width: 25px;
+    }
     .aboutme{
         top:800px;
         background-color: #232527;
@@ -635,6 +691,9 @@ body{
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px){
+    .icons{
+        width: 25px;
+    }
     .aboutme{
         top:800px;
         background-color: #232527;

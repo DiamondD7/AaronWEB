@@ -1,5 +1,4 @@
 import React from "react";
-import { DownloadSimple, ArrowLeft } from "phosphor-react";
 import AaronCV from "../assets/files/Aaron Sierra CV 2022.pdf";
 import "../cvstyle.css";
 

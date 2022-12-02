@@ -1,6 +1,14 @@
 import React from "react";
 import { ArrowLeft } from "phosphor-react";
-import Capture from "../../images/Capture.PNG";
+import ReactIcon from "../../images/icons/reacticon.png";
+import TmdbIcon from "../../images/icons/tmdbicon.png";
+import NodeIcon from "../../images/icons/nodejsicon.png";
+import MongoIcon from "../../images/icons/mongodbicon.png";
+import ExpressIcon from "../../images/icons/expressjsicon.png";
+import MsSqlIcon from "../../images/icons/sqlicon.png";
+import DotNetIcon from "../../images/icons/dotneticon.png";
+import CsharpIcon from "../../images/icons/csharpicon.png";
+import ApiIcon from "../../images/icons/apiicon.png";
 
 const MyProjects = () => {
   return (
@@ -16,6 +24,9 @@ const MyProjects = () => {
       <div className="project-container">
         <div className="preview-container-nf">
           <div className="content">
+            <img className="icons" src={ReactIcon} />
+            <img className="icons" src={TmdbIcon} />
+            <img className="icons" src={NodeIcon} />
             <p>
               I have cloned the Netflix application that has the ability to play
               videos with dynamic hero that always change when the page is
@@ -40,6 +51,10 @@ const MyProjects = () => {
 
         <div className="preview-container-shopclient">
           <div className="content">
+            <img className="icons" src={MongoIcon} />
+            <img className="icons" src={ExpressIcon} />
+            <img className="icons" src={ReactIcon} />
+            <img className="icons" src={NodeIcon} />
             <p>
               This project is a personal e-commerce project consuming its own
               node.js API. This is the client side of the website and there is
@@ -77,6 +92,10 @@ const MyProjects = () => {
 
         <div className="preview-container-shopadmin">
           <div className="content">
+            <img className="icons" src={MongoIcon} />
+            <img className="icons" src={ExpressIcon} />
+            <img className="icons" src={ReactIcon} />
+            <img className="icons" src={NodeIcon} />
             <p>
               This project is the admin part of the e-commerce website where
               only authorised personel have access, have the power to perform
@@ -105,14 +124,47 @@ const MyProjects = () => {
           </div>
         </div>
 
+        <div className="preview-container-todo">
+          <div className="content">
+            <img className="icons" src={MsSqlIcon} />
+            <img className="icons" src={DotNetIcon} />
+            <img className="icons" src={ReactIcon} />
+            <img className="icons" src={CsharpIcon} />
+            <p>
+              This project is focused on the CRUD operations, where users can
+              add their daily tasks. This is made using .Net Core Web API, MS
+              SQL Server, Reactjs and It is hosted in Azure.
+            </p>
+            <div className="website-anchortags-todo">
+              <a href="https://todolistc.azurewebsites.net/" target="_blank">
+                View site
+              </a>
+              <a
+                href="https://github.com/DiamondD7/todolist_client"
+                target="_blank"
+              >
+                View code
+              </a>
+              <a
+                href="https://github.com/DiamondD7/todolist_backend"
+                target="_blank"
+              >
+                View backend code
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="preview-container-weather">
           <div className="content">
+            <img className="icons" src={ReactIcon} />
+            <img className="icons" src={ApiIcon} />
             <p>
               I have made this "weather project" powered by ReactJs and
               weatherstack API. It provides real-time weather data of any city
               in the world.
             </p>
-            <div className="website-anchortags">
+            <div className="website-anchortags-weather">
               <a
                 href="https://weather-weather.azurewebsites.net/"
                 target="_blank"

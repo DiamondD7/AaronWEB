@@ -1,8 +1,19 @@
 import React from "react";
 import { useState } from "react";
 import Introduction from "./Introduction";
-import { X } from "phosphor-react";
-import { CaretRight, CaretLeft, CaretDoubleDown } from "phosphor-react";
+import { CaretDoubleDown } from "phosphor-react";
+import MongoIcon from "../images/icons/mongodbicon.png";
+import ExpressIcon from "../images/icons/expressjsicon.png";
+import ReactIcon from "../images/icons/reacticon.png";
+import NodeIcon from "../images/icons/nodejsicon.png";
+import MsSqlIcon from "../images/icons/sqlicon.png";
+import CsharpIcon from "../images/icons/csharpicon.png";
+import DotNetIcon from "../images/icons/dotneticon.png";
+import AzureIcon from "../images/icons/azureicon.png";
+import GitIcon from "../images/icons/giticon.png";
+import HtmlIcon from "../images/icons/htmlicon.png";
+import CssIcon from "../images/icons/cssicon.png";
+import JsIcon from "../images/icons/jsicon.png";
 
 const Home = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -17,6 +28,23 @@ const Home = () => {
   return (
     <div>
       <div>
+        <div className="skills-logos">
+          <img className="icons" src={HtmlIcon} />
+          <img className="icons" src={CssIcon} />
+          <img className="icons" src={JsIcon} />
+          —
+          <img className="icons" src={MongoIcon} />
+          <img className="icons" src={ExpressIcon} />
+          <img className="icons" src={ReactIcon} />
+          <img className="icons" src={NodeIcon} />
+          —
+          <img className="icons" src={MsSqlIcon} />
+          <img className="icons" src={CsharpIcon} />
+          <img className="icons" src={DotNetIcon} />
+          —
+          <img className="icons" src={AzureIcon} />
+          <img className="icons" src={GitIcon} />
+        </div>
         <div className="container--div">
           {openMenu ? (
             <div className="div--nav">
@@ -98,6 +126,7 @@ const Home = () => {
         <p className="hover-text">Hover</p>
         <CaretDoubleDown className="caret-down" size={30} color={"#232527"} />
       </div>
+
       <div>
         <div className="aboutme container--divs">
           <div className="lr-container">
