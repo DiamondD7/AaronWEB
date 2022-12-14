@@ -124,6 +124,44 @@ const MyProjects = () => {
           </div>
         </div>
 
+        <div className="preview-container-finance">
+          <div className="content">
+            <img className="icons" src={MsSqlIcon} />
+            <img className="icons" src={DotNetIcon} />
+            <img className="icons" src={ReactIcon} />
+            <img className="icons" src={CsharpIcon} />
+            <p>
+              This application is a personal finance tracker app, where the user
+              have the ability to manually input their transaction whenever they
+              want. Or they could also use a .CSV file exported from their bank
+              statement and the app will convert it to json format where it is
+              readable for the API. The application can provide graph insight
+              and details about the biggest expense and your total savings
+              overall.
+            </p>
+            <div className="website-anchortags-finance">
+              <a
+                href="https://financetrackerclient.azurewebsites.net/"
+                target="_blank"
+              >
+                View site
+              </a>
+              <a
+                href="https://github.com/DiamondD7/financeClient"
+                target="_blank"
+              >
+                View code
+              </a>
+              <a
+                href="https://github.com/DiamondD7/FinanceServer"
+                target="_blank"
+              >
+                View backend code
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="preview-container-todo">
           <div className="content">
             <img className="icons" src={MsSqlIcon} />
