@@ -1,5 +1,5 @@
 import React from "react";
-import AaronCV from "../assets/files/Aaron Sierra CV 2022.pdf";
+import AaronCV from "../assets/files/Aaron Resume (1).pdf";
 import "../cvstyle.css";
 
 const CV = () => {
