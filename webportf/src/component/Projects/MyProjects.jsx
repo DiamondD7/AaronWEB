@@ -193,32 +193,6 @@ const MyProjects = () => {
           </div>
         </div>
 
-        <div className="preview-container-weather">
-          <div className="content">
-            <img className="icons" src={ReactIcon} />
-            <img className="icons" src={ApiIcon} />
-            <p>
-              I have made this "weather project" powered by ReactJs and
-              weatherstack API. It provides real-time weather data of any city
-              in the world.
-            </p>
-            <div className="website-anchortags-weather">
-              <a
-                href="https://weather-weather.azurewebsites.net/"
-                target="_blank"
-              >
-                View site
-              </a>
-              <a
-                href="https://github.com/DiamondD7/weather-weather"
-                target="_blank"
-              >
-                View code
-              </a>
-            </div>
-          </div>
-        </div>
-
         <div className="preview-container-kali">
           <div className="content">
             <p>

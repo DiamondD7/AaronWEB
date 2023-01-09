@@ -118,7 +118,6 @@ body{
 }
 
 .lefty{
-
     width:50%;
     height: 800px;
 }
@@ -137,16 +136,19 @@ body{
     background-color: transparent;
     border: none;
     width:100%;
-    height:800px;
+    height:0px;
     cursor: pointer;
     transition: ease-out 0.8s;
+     
 }
 
 .btn-divider:hover{
     display: block;
     background-color: #edebe5;
     color:#232527;
-    transition:ease-in 0.5s;
+    height: 800px;
+    transition:all ease-in 0.5s;
+    
     
 }
 
@@ -568,6 +570,38 @@ body{
     margin-top: 10px;
     height:800px;
 }
+
+.btns-side-div{
+    position:absolute;
+    top:80px;
+    left:0;
+    display: flex;
+    align-items: center;
+}
+
+.btn-side{
+    background-color: #232527;
+    border: none;
+    color: #edebe5;
+    padding:10px 20px 10px 20px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    width: 83px;
+}
+
+/* .btn-side:hover{
+    background-color: #232527;
+    width: 500px;
+    transition: all ease 2s;
+} */
+
+.btnsideicon{
+    position:absolute;
+    top:-8px;
+    left:63px;
+    width: 55px;
+}
+
 
 @media screen and (min-width: 300px) and (max-width: 600px){
     .icons{

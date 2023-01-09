@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import Introduction from "./Introduction";
-import { CaretDoubleDown } from "phosphor-react";
 import MongoIcon from "../images/icons/mongodbicon.png";
 import ExpressIcon from "../images/icons/expressjsicon.png";
 import ReactIcon from "../images/icons/reacticon.png";
@@ -24,26 +23,25 @@ const Home = () => {
   } else {
     bod.style.overflow = "scroll";
   }
-
   return (
     <div>
       <div>
-        <div className="skills-logos">
-          <img className="icons" src={HtmlIcon} />
-          <img className="icons" src={CssIcon} />
-          <img className="icons" src={JsIcon} />
+        <div className="skills-logos" id="skillslogo">
+          <img className="icons" src={HtmlIcon} alt="HtmlIcon" />
+          <img className="icons" src={CssIcon} alt="CssIcon" />
+          <img className="icons" src={JsIcon} alt="JsIcon" />
           —
-          <img className="icons" src={MongoIcon} />
-          <img className="icons" src={ExpressIcon} />
-          <img className="icons" src={ReactIcon} />
-          <img className="icons" src={NodeIcon} />
+          <img className="icons" src={MongoIcon} alt="MongoIcon" />
+          <img className="icons" src={ExpressIcon} alt="ExpressIcon" />
+          <img className="icons" src={ReactIcon} alt="ReactIcon" />
+          <img className="icons" src={NodeIcon} alt="NodeIcon" />
           —
-          <img className="icons" src={MsSqlIcon} />
-          <img className="icons" src={CsharpIcon} />
-          <img className="icons" src={DotNetIcon} />
+          <img className="icons" src={MsSqlIcon} alt="MsSqlIcon" />
+          <img className="icons" src={CsharpIcon} alt="CsharpIcon" />
+          <img className="icons" src={DotNetIcon} alt="DotNetIcon" />
           —
-          <img className="icons" src={AzureIcon} />
-          <img className="icons" src={GitIcon} />
+          <img className="icons" src={AzureIcon} alt="AzureIcon" />
+          <img className="icons" src={GitIcon} alt="GitIcon" />
         </div>
         <div className="container--div">
           {openMenu ? (
@@ -93,6 +91,20 @@ const Home = () => {
                   </li>
                   <li>
                     <button>
+                      <a className="menu-anchor" href="/About">
+                        About
+                      </a>
+                    </button>
+                  </li>
+                  <li>
+                    <button>
+                      <a className="menu-anchor" href="/MyProjects">
+                        Projects
+                      </a>
+                    </button>
+                  </li>
+                  <li>
+                    <button>
                       <a className="menu-anchor" href="/cvresume">
                         CV/Resume
                       </a>
@@ -120,67 +132,6 @@ const Home = () => {
             </button>
           )}
           <Introduction />
-        </div>
-      </div>
-      <div className="double-down-icon">
-        <p className="hover-text">Hover</p>
-        <CaretDoubleDown className="caret-down" size={30} color={"#232527"} />
-      </div>
-
-      <div>
-        <div className="aboutme container--divs">
-          <div className="lr-container">
-            <div className="lefty">
-              <button className="btn-divider">
-                <a className="anchor-empty about" href="/About">
-                  About me{" "}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="192"
-                    height="192"
-                    className="caretRight"
-                    fill="#000000"
-                    viewBox="0 0 256 256"
-                  >
-                    <rect width="256" height="256" fill="none"></rect>
-                    <polyline
-                      points="96 48 176 128 96 208"
-                      fill="none"
-                      stroke="#232527"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="16"
-                    ></polyline>
-                  </svg>
-                </a>
-              </button>
-            </div>
-            <div className="righty">
-              <button className="btn-divider">
-                <a className="anchor-empty projects" href="/MyProjects">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="192"
-                    height="192"
-                    className="caretLeft"
-                    fill="#000000"
-                    viewBox="0 0 256 256"
-                  >
-                    <rect width="256" height="256" fill="none"></rect>
-                    <polyline
-                      points="160 208 80 128 160 48"
-                      fill="none"
-                      stroke="#232527"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="16"
-                    ></polyline>
-                  </svg>{" "}
-                  My Projects
-                </a>
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </div>

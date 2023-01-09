@@ -5,10 +5,6 @@ const Introduction = () => {
   return (
     <div>
       <div className="introduction--container">
-        {/* <div className="intro-header headers">Aaron Julian Sierra</div>
-        <div className="titles">
-          <p>Software Developer</p>
-        </div> */}
         <img className="logo" src={logo} />
       </div>
       <div className="logos">
