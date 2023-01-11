@@ -88,7 +88,7 @@ body{
 .skills-logos{
     display: flex;
     justify-content: flex-end;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .btn-menu{
@@ -602,10 +602,17 @@ body{
     width: 55px;
 }
 
+@media screen and (min-width: 100px) and (max-width:300px){
+    .icons{
+        width: 15px;
+        height: 15px;
+    }
+}
 
 @media screen and (min-width: 300px) and (max-width: 600px){
     .icons{
-        width: 25px;
+        width: 15px;
+        height: 15px;
     }
     .aboutme{
         top:800px;
@@ -613,7 +620,7 @@ body{
     }
 
     .logo{
-        width: 390px;
+        width: 290px;
     }
 
     .introduction--container{
@@ -621,7 +628,7 @@ body{
         justify-content: center;
         
         position: absolute;
-        top:0;
+        top:15%;
         left: 50%;
         transform: translate(-50%, 0);
     }
@@ -687,8 +694,12 @@ body{
     }
 
     .menu-items{
-        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 90px);
         gap:100px;
+
+        top:30%;
+        left: 46%;
     }
     .menu-items li button{
         font-size: 25px;
@@ -705,6 +716,10 @@ body{
         font-size: 24px;
     
         font-weight: 550;
+    }
+
+    .divide-divs{
+        width: 520px;
     }
 
     .about-subheading{
@@ -740,6 +755,7 @@ body{
 
     .presentYear{
         height:800px;
+        width: 520px;
     }
 
     /* ----------------------------- */
