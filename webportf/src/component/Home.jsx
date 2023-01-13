@@ -10,9 +10,7 @@ import CsharpIcon from "../images/icons/csharpicon.png";
 import DotNetIcon from "../images/icons/dotneticon.png";
 import AzureIcon from "../images/icons/azureicon.png";
 import GitIcon from "../images/icons/giticon.png";
-import HtmlIcon from "../images/icons/htmlicon.png";
-import CssIcon from "../images/icons/cssicon.png";
-import JsIcon from "../images/icons/jsicon.png";
+import { useEffect } from "react";
 
 const Home = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -23,22 +21,44 @@ const Home = () => {
   } else {
     bod.style.overflow = "scroll";
   }
+
+  useEffect(() => {
+    const btnside = document.getElementById("btnside");
+    const skillslogo = document.getElementById("skillslogo");
+
+    const btnworkexp = document.getElementById("btnworkexp");
+    const sftdevp = document.getElementById("sftdevp");
+
+    btnside.addEventListener("mouseenter", function () {
+      skillslogo.style.display = "flex";
+      skillslogo.style.justifyContent = "flex-start";
+    });
+
+    btnworkexp.addEventListener("mouseenter", function () {
+      sftdevp.style.display = "block";
+    });
+
+    btnside.addEventListener("mouseleave", function () {
+      skillslogo.style.display = "none";
+    });
+
+    btnworkexp.addEventListener("mouseleave", function () {
+      sftdevp.style.display = "none";
+    });
+  }, []);
   return (
     <div>
       <div>
         <div className="skills-logos" id="skillslogo">
-          <img className="icons" src={HtmlIcon} alt="HtmlIcon" />
-          <img className="icons" src={CssIcon} alt="CssIcon" />
-          <img className="icons" src={JsIcon} alt="JsIcon" />
+          <img className="icons" src={ReactIcon} alt="ReactIcon" />
+          <img className="icons" src={DotNetIcon} alt="DotNetIcon" />
+          <img className="icons" src={CsharpIcon} alt="CsharpIcon" />
+          <img className="icons" src={MsSqlIcon} alt="MsSqlIcon" />
           —
           <img className="icons" src={MongoIcon} alt="MongoIcon" />
           <img className="icons" src={ExpressIcon} alt="ExpressIcon" />
           <img className="icons" src={ReactIcon} alt="ReactIcon" />
           <img className="icons" src={NodeIcon} alt="NodeIcon" />
-          —
-          <img className="icons" src={MsSqlIcon} alt="MsSqlIcon" />
-          <img className="icons" src={CsharpIcon} alt="CsharpIcon" />
-          <img className="icons" src={DotNetIcon} alt="DotNetIcon" />
           —
           <img className="icons" src={AzureIcon} alt="AzureIcon" />
           <img className="icons" src={GitIcon} alt="GitIcon" />
@@ -134,6 +154,20 @@ const Home = () => {
           <Introduction />
         </div>
       </div>
+      <div className="btns-side-div">
+        <button className="btn-side" id="btnside">
+          Tech stacks {">"}
+        </button>
+      </div>
+
+      <div className="workexp-side-div">
+        <button className="btn-side" id="btnworkexp">
+          Recent work {">"}
+        </button>
+      </div>
+      <p className="softwaredev-p" id="sftdevp">
+        Software Developer Intern - MVP Studio
+      </p>
     </div>
   );
 };
