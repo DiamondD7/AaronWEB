@@ -193,6 +193,40 @@ const MyProjects = () => {
           </div>
         </div>
 
+        <div className="preview-container-vroom">
+          <div className="content">
+            <img className="icons" src={MsSqlIcon} />
+            <img className="icons" src={DotNetIcon} />
+            <img className="icons" src={ReactIcon} />
+            <img className="icons" src={CsharpIcon} />
+            <p>
+              This is another personal project that I am working on. The
+              technologies used here are ReactJS, Asp.Net Core, C#, MS SQL
+              Server. I decided to make this e-commerce project because it can
+              help me improve on and understand web application stages and
+              cycles that come into play. I am working on making another
+              component and implementing payment methods.
+            </p>
+            <div className="website-anchortags-vroom">
+              <a style={{ color: "limegreen" }}>
+                Still working on this project
+              </a>
+              <a
+                href="https://github.com/DiamondD7/vroom_client"
+                target="_blank"
+              >
+                View code
+              </a>
+              <a
+                href="https://github.com/DiamondD7/vroom_server"
+                target="_blank"
+              >
+                View backend code
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="preview-container-kali">
           <div className="content">
             <p>
